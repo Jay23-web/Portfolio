@@ -48,7 +48,9 @@ function Home() {
             <br />
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
-              {/* <div className="  space-y-2">
+              {
+              /*
+  <div className="  space-y-2">
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
@@ -85,9 +87,9 @@ function Home() {
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center md:ml-auto md:mr-6 mt-8 md:mt-20 order-1">
-            <img 
+            <img
               src={jay}
-              className="rounded-full md:w-[300px] md:h-[300px] w-[250px] h-[250px] object-cover"
+              className="rounded-full md:w-[300px] md:h-[350px] w-[250px] h-[250px] object-cover"
               alt=""
             />
           </div>
