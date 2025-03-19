@@ -34,7 +34,7 @@ function PortFolio() {
       className=" max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5 text-softWhite">PortFolio</h1>
+        <h1 className="text-3xl font-bold mb-5 text-blue-500 tracking-wider" >PortFolio</h1>
         <span className=" underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
   {cardItem.map(({ id, logo, name }) => (
@@ -51,10 +51,10 @@ function PortFolio() {
         <div className="font-bold text-xl mb-2">{name}</div>
       </div>
       <div className="flex justify-center gap-3">
-        <button className="bg-slate-900 hover:scale-105 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
+        <button className="bg-slate-900 hover:scale-105 hover:bg-blue-500 text-white font-bold px-4 py-2 rounded">
           View
         </button>
-        <button className="bg-slate-900 hover:scale-105 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
+        <button className="bg-slate-900 hover:scale-105 hover:bg-blue-500 text-white font-bold px-4 py-2 rounded">
           Source code
         </button>
       </div>

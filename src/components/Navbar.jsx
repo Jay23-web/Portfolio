@@ -29,15 +29,18 @@ function Navbar() {
   ];
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-[#3B82F6]">
+      <div className="bg-[#19376d] max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 ">
         <div className="flex justify-between items-center h-16">
           <div className=" flex space-x-2 items-center" >
             <img src={jay} className="h-12 w-12 rounded-full" alt="Jay Logo" />
-            <div className="leading-tight"> 
+            <div className="leading-tight">
               <h1 className="font-cursive text-2xl font-bold text-softWhite tracking-wide drop-shadow-lg">
-              Jay</h1>
+                Jay</h1>
 
-              <p className="text-sm font-semibold  tracking-wider bg-gradient-to-r from-[#000000] to-[#001fbc] text-transparent bg-clip-text">Web Developer</p>
+              <p className="text-sm  text-white  tracking-widest
+">Web Developer</p>
+              {/* 
+              <p className="text-sm font-semibold  tracking-wider bg-gradient-to-r from-[#000000] to-[#001fbc] text-transparent bg-clip-text">Web Developer</p> */}
             </div>
           </div>
           {/* desktop navbar */}
@@ -45,7 +48,7 @@ function Navbar() {
             <ul className="hidden md:flex space-x-8">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 cursor-pointer "
+                  className="hover:scale-105  hover:text-blue-500 hover:border-b-2 duration-200 cursor-pointer "
                   key={id}
                 >
                   <Link
@@ -68,11 +71,11 @@ function Navbar() {
         </div>
         {/* mobile navbar */}
         {menu && (
-          <div className="bg-vibrantBlue">
+          <div className="bg-[#19376d] ">
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105  duration-200 font-semibold cursor-pointer"
+                  className="group relative hover:scale-105  duration-200 hover:text-blue-500 hover:border-b-2 font-semibold cursor-pointer"
                   key={id}
                 >
                   <Link
@@ -85,6 +88,7 @@ function Navbar() {
                   >
                     {text}
                   </Link>
+
                 </li>
               ))}
             </ul>

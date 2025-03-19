@@ -16,7 +16,7 @@ function Footer() {
               <FaFacebook size={24} />
               <FaTwitter size={24} />
               <FaInstagram size={24} />
-              <FaLinkedinIn size={24} />
+              <FaLinkedinIn size={24}  />
             </div>
             <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
               <p className="text-sm navyBlack">

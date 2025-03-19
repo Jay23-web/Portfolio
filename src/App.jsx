@@ -14,11 +14,13 @@ import { Toaster } from 'react-hot-toast';
     return (
       <>
      {/* <div className='bg-blue-700'> */}
-     <div  className="bg-[#3B82F6]">
+     <div  className="bg-[#19376d] text-white">
+     {/* <div  className="bg-[#1f2022]"> */}
+     
       <Navbar/>
       <Home/>
       <About/>
-      <PortFolio/>
+      <PortFolio/>  
       <Experiance/>
       <Contact/>
       <Footer/>

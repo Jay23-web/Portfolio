@@ -31,7 +31,7 @@ function Contact() {
         name="Contact"
         className=" max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
       >
-        <h1 className="text-3xl font-bold mb-4 text-softWhite">Contact Me</h1>
+        <h1 className="text-3xl font-bold mb-4 text-blue-500 tracking-wider">Contact Me</h1>
 
         <span>Please fill out the form below to contact me</span>
         <div className=" flex flex-col items-center justify-center mt-5">
@@ -41,7 +41,7 @@ function Contact() {
             // method="POST"
             className="bg-slate-200 w-96 px-8 py-6 rounded-xl"
           >
-            <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
+            <h1 className="text-xl font-semibold mb-4  text-blue-500 tracking-wider">Send Your Message</h1>
             <div className="flex flex-col mb-4">
               <label className="block text-gray-700">FullName</label>
               <input
@@ -80,7 +80,7 @@ function Contact() {
             </div>
             <button
               type="submit"
-              className="bg-slate-900 hover:scale-105 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
+              className=" tracking-widest bg-slate-900 hover:scale-105 hover:bg-blue-700  text-white font-bold px-6 py-2 rounded"
             >
               Send
             </button>
