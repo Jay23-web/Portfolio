@@ -38,7 +38,7 @@ function Home() {
               />
             </div>
             <br />
-            <p className="text-sm md:text-md text-justify">
+            <p className="text-lg md:text-md text-justify">
               As a motivated Computer Engineering student, I seek an
               opportunity to apply theoretical knowledge in practical
               settings, contribute to innovative projects, and gain hands-on
@@ -76,7 +76,7 @@ function Home() {
                   </li>
                 </ul>
               </div> */}
-              <div className=" space-y-2">
+              <div className="space-y-2">
                 <h1 className="font-bold text-center">Currently working on</h1>
                 <div className="flex space-x-5" >
                   <SiMongodb className=" py-0.5 text-3xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />

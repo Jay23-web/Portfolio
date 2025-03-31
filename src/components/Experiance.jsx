@@ -39,17 +39,17 @@ function Experiance() {
   return (
     <div
       name="Experiance"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 " 
+      className="max-w-screen-2xl container mx-auto px-4 md:px-12 lg:px-16 xl:px-20 mt-10" 
     >
       <div>
-        <h1 className="tracking-wider text-3xl font-bold mb-5 text-blue-500 ">Experiance</h1>
-        <p className="  ">
+        <h1 className="tracking-wider text-3xl font-bold mb-5  text-blue-500  ">Experiance</h1>
+        <p className="text-lg font-mono mb-5">
           I've more than 1 years of experiance in below technologies.
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-5 my-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6 mt-5">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className=" flex flex-col items-center justify-center border-[2px]  md:w-[200px] md:h-[200px]  shadow-md p-1 cursor-pointer hover:scale-110 duration-300 rounded-b-3xl "
+              className=" bg-slate-800 hover:scale-105 hover:bg-blue-800 text-white font-bold flex flex-col items-center justify-center p-4 rounded-lg shadow-lg transition duration-300 ease-in-out"
               key={id}
             >
               <img src={logo} className="w-[100px]  h-[150px]rounded-full" alt="" />

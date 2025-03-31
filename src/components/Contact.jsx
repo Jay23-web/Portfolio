@@ -34,16 +34,16 @@ function Contact() {
         <h1 className="text-3xl font-bold mb-4 text-blue-500 tracking-wider">Contact Me</h1>
 
         <span>Please fill out the form below to contact me</span>
-        <div className=" flex flex-col items-center justify-center mt-5">
+        <div className=" flex flex-col items-center justify-center mt-5 ">
           <form
             onSubmit={handleSubmit(onSubmit)}
             // action="https://getform.io/f/raeqjora"
             // method="POST"
-            className="bg-slate-200 w-96 px-8 py-6 rounded-xl"
+            className="bg-navyBlack w-106 px-8 py-6 rounded-xl "
           >
-            <h1 className="text-xl font-semibold mb-4  text-blue-500 tracking-wider">Send Your Message</h1>
-            <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">FullName</label>
+            <h1 className="text-xl font-semibold mb-4  text-blue-500 tracking-wider">Message for Me? Fill Form Now</h1>
+            <div className="flex flex-col mb-4 text-soft-white">
+              <label className="block ">FullName</label>
               <input
                 {...register("name", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -55,7 +55,7 @@ function Contact() {
               {errors.name && <span>This field is required</span>}
             </div>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">Email Address</label>
+              <label className="block">Email Address</label>
               <input
                 {...register("email", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -67,7 +67,7 @@ function Contact() {
               {errors.email && <span>This field is required</span>}
             </div>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">Message</label>
+              <label className="block">Message</label>
               <textarea
                 {...register("message", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -80,7 +80,7 @@ function Contact() {
             </div>
             <button
               type="submit"
-              className=" tracking-widest bg-slate-900 hover:scale-105 hover:bg-blue-700  text-white font-bold px-6 py-2 rounded"
+              className=" tracking-widest bg-blue-800 hover:scale-105 hover:bg-blue-700  text-white font-bold px-6 py-2 rounded"
             >
               Send
             </button>

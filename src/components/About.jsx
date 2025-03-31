@@ -18,9 +18,9 @@ function About() {
           Education & Training
         </h1>
         <span>
-           Bachelor's in Computer Engineering [L.D. College Of Engineering] 2020 - 2025 Percentage: 64.60 .  <br />
-           Higher Secondary Education [Pramukh Swami Vidhyalaya] 2019 - 2020 Percentage: 57.80 . <br />
-           Matriculation [Navyug Vidhyalaya] 2017- 2018 Percentage: 74.17 .
+           Bachelor's in Computer Engineering [L.D. College Of Engineering] 2020 - 2025 Percentage: 64.60.  <br />
+           Higher Secondary Education [Pramukh Swami Vidhyalaya] 2019 - 2020 Percentage: 57.80. <br />
+           Matriculation [Navyug Vidhyalaya] 2017- 2018 Percentage: 74.17.
         </span>
         <br />
 
