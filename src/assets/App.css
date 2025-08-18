@@ -1,0 +1,4 @@
+input:focus {
+  border-color: blue; /* Change to your desired color */
+  outline: none; /* Remove default browser outline */
+}
