@@ -1,8 +1,5 @@
-  import React from "react";
   import thriftkart from "../../public/thriftkart.png";
-  import simon from "../../public/simon.png";
-  import tictactoe from "../../public/tictactoe.png";
-  import restaurant from "../../public/restaurant.png";
+
   function PortFolio() {
     const cardItem = [
       {
@@ -10,31 +7,7 @@
         logo: thriftkart,
         name: "ThriftKart",
         link : "https://thriftkart-frontend.vercel.app/"
-      },
-    ,
-      {
-        id: 2,
-        logo: simon,
-        name: "Simon Says Game",
-        link : ""
-
-      },
-      {
-        id: 3,
-        logo: tictactoe,
-        name: "Tic-Tac-Toe Game",
-        link : "https://tictactoegamejay.netlify.app/"
-
-      },
-      {
-        id: 4,
-        logo: restaurant,
-        name: "Restaurant",
-        link : "https://restaurant-website-jay.netlify.app/"
-
-      }
-      
-    ];
+      } ];
 
     return (
       <div
